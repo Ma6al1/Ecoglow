@@ -71,6 +71,7 @@ body{
 
 .ig {
     font-size: 30px;
+    color: #000;
 }
 
 .navbar-list {
@@ -96,6 +97,11 @@ body{
     font-size: 30px;
     cursor: pointer;
 }
+
+.section-header i:hover {
+    transform: scale(1.2,1.2);
+}
+
 
 /* Aca comienza el inicio */
 
@@ -164,7 +170,7 @@ body{
 }
 
 .crema {
-    background-image: url(./img/inicio.jpg);
+    background-image: url(./img/Products/Crema.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,6 +206,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card-product:hover {
+    transform: scale(1.1,1.1);
+}
+
+.card-product button:hover {
+    background-color: var(--verde);
+    color: #F0F0F0;
 }
 
 /* Aca empieza nosotros */
@@ -298,6 +313,10 @@ body{
     font-size: 25px;
     justify-content: center;
     gap: 20px;
+}
+
+.container-redes i:hover {
+    transform: scale(1.2,1.2);
 }
 
 #newletter {
