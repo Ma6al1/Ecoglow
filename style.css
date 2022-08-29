@@ -100,7 +100,7 @@ body{
 /* Aca comienza el inicio */
 
 #inicio {
-    background-image: url(./IMG/inicio.jpg);
+    background-image: url(./img/inicio.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
